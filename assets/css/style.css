@@ -1,0 +1,159 @@
+body {margin: 0;
+    font-family: 'Montserrat', sans-serif;;
+
+font-size: 15px;
+line-height: 1.6;
+color: #333
+;}
+
+*,
+*:before,
+*:after 
+{box-sizing: border-box;}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;}
+
+/* Container */
+
+.container {width: 100%;
+max-width: 1200px;
+margin: 0 auto;}
+
+/* Intro */
+.intro {display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+height: 100vh;
+
+background: url("../images/intro.jpg") 
+center no-repeat;
+-webkit-background-size: cover;
+background-size: cover;}
+
+.intro__inner {width: 100%;
+max-width: 870px;
+margin: 0 auto;
+
+text-align: center;}
+
+.intro__title {font-size: 100px;
+font-weight: 700;
+text-transform: uppercase;
+text-align: center;
+line-height: 1.1;
+color: aliceblue;}
+
+.intro__title:after {content: "";
+display: block;
+width: 110px;
+height: 3px;
+margin: 15px auto 0;
+
+background-color: aliceblue;}
+
+.intro__suptitle {font-family: 'Kaushan Script', cursive;
+    font-size: 72px;
+color: aliceblue;
+text-align: center;}
+
+.intro__suptitle:after {content: "";
+display: block;
+width: 70px;
+height: 3px;
+margin: 1px auto 0;
+
+background-color: aliceblue;}
+
+
+
+/* Header */
+.header {width: 100%;
+    padding-top: 20px;
+    position: absolute;
+top: 0;
+left: 0;
+right: 0;
+z-index: 1000;}
+
+.header__inner {display: flex;
+justify-content: space-between;
+align-items: center;}
+
+.header__logo {font-size: 15px;
+font-weight: 700;
+color: floralwhite;
+text-align: left;}
+
+
+/*Nav*/
+
+.nav {margin: auto 0;
+    font-size: 50px;
+    text-decoration: none;
+    transform: color .2s linear;
+    transition: background .1s linear, color 1s linear;
+    text-transform: uppercase;
+    font-weight: 700;}
+
+
+.nav__hutao {color: red;
+display: inline-block;
+vertical-align: top;
+margin: 0 30px;
+transition: color .2s linear;
+text-decoration: none;
+border: 3px solid rgb(214, 5, 5);}
+
+.nav__hutao:hover {background-color: rgb(216, 6, 6);
+color: rgb(170, 7, 7);}
+
+.nav__xiao {color: rgb(6, 214, 221);
+display: inline-block;
+vertical-align: top;
+margin: 0 100px;
+transition: color .2s linear;
+text-decoration: none;
+border: 3px solid rgb(5, 138, 104);}
+
+.nav__xiao:hover {background-color: rgb(9, 160, 160);
+color: cyan;}
+
+.nav__ayato {color: blue;
+display: inline-block;
+vertical-align: top;
+margin: 0 30px;
+transition: color .2s linear;
+text-decoration: none;
+border: 3px solid rgb(7, 38, 209);}
+
+.nav__ayato:hover {background-color: rgb(3, 3, 116);
+color: rgb(0, 0, 167);}
+
+.nav__kazuha {color: aquamarine;
+display: inline-block;
+vertical-align: top;
+margin: 0 45px;
+transform: color .2s linear;}
+
+/* Button */
+.btn {display: inline-block;
+vertical-align: top;
+padding: 8px 37px;
+
+border: 3px solid #fff;
+font-size: 14px;
+font-weight: 700;
+color: #fff;
+text-transform: uppercase;
+margin: 3px 370px; 
+text-decoration: none;
+
+transition: background .1s linear, color 1s linear;}
+
+.btn:hover {background-color: #fff;
+color: #333;}
+
+
+
